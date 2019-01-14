@@ -2,7 +2,7 @@ server:
   port: 5002
 spring:
   application:
-    name: xinhao-plat
+    name: xinhao-product
 eureka:
   client:
     service-url:
