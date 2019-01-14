@@ -8,12 +8,12 @@ spring:
     url: jdbc:mysql://localhost:3306/xinhao_product
     username: root
     password: root
+mybatis-plus:
+  mapper-locations: classpath:com/lizi123/xinhao/mapper/*Mapper.xml
+  type-aliases-package: com.lizi123.xinhao.domain,com.lizi123.xinhao.query
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
     prefer-ip-address: true
-mybatis-plus:
-  mapper-locations: classpath:com/lizi123/xinhao/mapper/*Mapper.xml
-  type-aliases-package: com.lizi123.xinhao.domain,com.lizi123.xinhao.query
