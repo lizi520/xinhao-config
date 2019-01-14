@@ -2,7 +2,7 @@ server:
   port: 8002
 spring:
   application:
-    name: xinhao-plat-test
+    name: xinhao-plat
 eureka:
   client:
     service-url:
