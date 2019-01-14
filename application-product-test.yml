@@ -15,5 +15,5 @@ eureka:
   instance:
     prefer-ip-address: true
 mybatis-plus:
-  mapper-locations: classpath:cn/itsource/aigou/mapper/*Mapper.xml
+  mapper-locations: classpath:com/lizi123/xinhao/mapper/*Mapper.xml
   type-aliases-package: com.lizi123.xinhao.domain,com.lizi123.xinhao.query
