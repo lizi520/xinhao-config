@@ -1,11 +1,11 @@
 server:
-  port: 5001
+  port: 8002
 spring:
   application:
-    name: xinhao-plat
+    name: xinhao-product
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    prefer-ip-address: true    
+    prefer-ip-address: true
