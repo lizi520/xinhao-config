@@ -10,7 +10,7 @@ spring:
     password: root
 mybatis-plus:
   mapper-locations: classpath:com/lizi123/xinhao/mapper/*Mapper.xml
-  type-aliases-package: com.lizi123.xinhao.domain,com.lizi123.xinhao.query,com.lizi123.xinhao.mapper,com.lizi123.xinhao.controller,com.lizi123.xinhao.service
+  type-aliases-package: com.lizi123.xinhao.domain,com.lizi123.xinhao.query
 eureka:
   client:
     service-url:
